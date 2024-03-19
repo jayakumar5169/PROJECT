@@ -15,7 +15,7 @@ switch($n)
 {
     case "katchi sera":
         {
-            $link = "<script>window.open('http://localhost/project/songs/katchi_sera.html')</script>";
+            $link = "<script>window.open('songs/katchi_sera.html')</script>";
             echo $link;
             $link_close = "<script>window.close('redirect.html')</script>";
             echo $link_close;
